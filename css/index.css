@@ -6,6 +6,38 @@
     box-sizing: border-box;
 }
 
+p.benifit-text {
+    text-align: justify;
+    font-weight: 300;
+    line-height: 2.4rem;
+}
+
+strong {
+    margin: -0.7rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+li.benifit {
+    list-style: decimal-leading-zero;
+    padding: 0.5rem;
+}
+
+li.benifit {}
+
+ul.benifits {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.benifits-of-programmer {
+    padding: 2rem 2.5rem;
+    font-family: 'Nunito';
+    width: 100%;
+    height: inherit;
+    overflow: scroll;
+}
+
 button#button {
     box-sizing: border-box;
     display: none;
@@ -279,7 +311,7 @@ span.border-run:nth-child(4) {
     left: 0;
     height: 100%;
     width: 3px;
-    background: linear-gradient(45deg, transparent, #00bcd4);
+    background: linear-gradient(45deg, transparent, #2196F3);
     z-index: 1;
 }
 
@@ -294,7 +326,7 @@ span.border-run:nth-child(2) {
     right: 0;
     height: 100%;
     width: 3px;
-    background: linear-gradient(45deg, #00bcd4, transparent);
+    background: linear-gradient(45deg, #2196F3, transparent);
     z-index: 1;
 }
 
@@ -309,7 +341,7 @@ span.border-run:nth-child(3) {
     right: -100%;
     width: 100%;
     height: 3px;
-    background: linear-gradient(45deg, #00bcd4, transparent);
+    background: linear-gradient(45deg, #2196F3, transparent);
     z-index: 1;
 }
 
@@ -318,7 +350,7 @@ span.border-run:nth-child(1) {
     left: -100%;
     width: 100%;
     height: 3px;
-    background: linear-gradient(90deg, transparent, #00bcd4);
+    background: linear-gradient(90deg, transparent, #2196F3);
     z-index:1;
 }
 
@@ -330,7 +362,7 @@ img.project-image {
 }
 
 .my-project-front-end:hover img.project-image {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     height: 140px;
     box-shadow: 0px 0px 2px #5c5d5c;
     margin-bottom: 0.5rem;
@@ -957,13 +989,19 @@ div#about {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #ffffff; 
+    background: #f5f5f5; 
 }
 ::-webkit-scrollbar-thumb {
     background: #9E9E9E; 
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #b5b5b5; 
+}
+.benifits-of-programmer::-webkit-scrollbar{
+    width:0;
+}
+.benifits-of-programmer::-webkit-scrollbar-track{
+    background: transparent;
 }
 /* Custom scroll-bar*/
 
@@ -1125,7 +1163,7 @@ img.avatar {
 }
 
 nav.navbar {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito';
     position: fixed;
     background: #ececec;
     z-index: 1;

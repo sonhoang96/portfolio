@@ -576,6 +576,9 @@ $(document).ready(function() {
 			openSeeMore();
 			closeSeeMore();
 			activePosition();
+			//update display, remove several tags
+			$('.reason').remove();
+			$('.see-more').remove();
 			});
 	}
 	introApp();

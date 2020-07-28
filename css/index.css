@@ -981,7 +981,7 @@ div#about {
     left: 540px;
     width: 800px;
     height: auto;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
 }
 
 /* Custom scroll-bar*/
